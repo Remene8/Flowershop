@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    font-family: algerian;
+}
+
+.flower_flower {
+    color: red;
+    margin-left: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_continer {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_continer > a {
+    color: white;
+}
+
+#home {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.image_continer > img {
+    width: 300px;
+    height: 300px;
+    border: 10px double white;
+    border-radius: 50%;
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.hero_continer {
+   max-width: 700px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+button {
+    width: fit-content;
+    background-color: rgb(151, 183, 216);
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
